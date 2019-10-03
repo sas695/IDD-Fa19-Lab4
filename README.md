@@ -10,7 +10,7 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 
 **Link to a video of your virbation motor**
 
-[Video Here] (
+[Video Here] (https://github.com/sas695/IDD-Fa19-Lab4/blob/master/Lab4.A.mov)
 
 ## Part B. Actuating Servo motors
 
@@ -18,21 +18,29 @@ To submit your lab, clone [this repository](https://github.com/FAR-Lab/IDD-Fa18-
 
 **a. Which color wires correspond to power, ground and signal?**
 
+brown = ground
+orange = signal
+red = power
+
 ### Part 2. Connect the Servo to your Arduino
 
 **a. Which Arduino pin should the signal line of the servo be attached to?**
 
+Pin 9
+
 **b. What aspects of the Servo code control angle or speed?**
+
+angle controlled by: (pos = 0; pos <= 180; pos += 1)
+speed controlled by: delay(15)
 
 ## Part C. Integrating input and output
 
 **Include a photo/movie of your raw circuit in action.**
 
+[Video Here] (https://github.com/sas695/IDD-Fa19-Lab4/blob/master/Lab4-C.mov)
+
+
 ## Part D. Paper puppet
 
-**a. Make a video of your proto puppet.**
-
-## Part E. Make it your own
-
-**a. Make a video of your final design.**
+[Video Here] (https://github.com/sas695/IDD-Fa19-Lab4/blob/master/paper_puppet.mov)
  
